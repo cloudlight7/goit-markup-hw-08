@@ -1,0 +1,49 @@
+.filter {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.filter__item {
+    margin-right: 8px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+
+
+.filter__btn {
+    min-width: 73px;
+    max-width: 200px;
+    border: 0;
+    border-radius: 4px;
+    padding: 6px 22px;
+    color: var(--primary-text-color);
+    background-color: var(--secondary-bg-color);
+    font-family: var(--style-roboto);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.03em;
+    transition: background-color 250ms var(--timing-func), color 250ms var(--timing-func),
+    box-shadow 250ms var(--timing-func);
+    &:hover,
+    &:focus {
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+        color: var(--primary-white-color);
+        background-color: var(--accent-color);
+    }
+}
+
+
+
+.filter__current {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}

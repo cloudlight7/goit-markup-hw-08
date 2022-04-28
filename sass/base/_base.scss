@@ -1,0 +1,30 @@
+@import "../base/reset";
+body {
+    font-family: var(--style-roboto);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+
+img {
+    display: block;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &:nth-child(3) {
+        padding-top: 0;
+    }
+}
+.text {
+    color: var(--secondary-text-color);
+}
+
+.title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+}

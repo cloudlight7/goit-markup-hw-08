@@ -1,0 +1,35 @@
+.feature {
+    display: flex;
+    padding: 0;
+    text-align: left;
+}
+
+.feature__item {
+    width: 270px;
+}
+
+.feature__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.featnre__rectangle {
+    display: flex;
+    background-color: var(--secondary-bg-color);
+    height: 120px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.feature__title {
+    margin: 0 0 10px 0;
+    line-height: 1.14;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.feature__text {
+    margin: 0;
+    line-height: 1.71;
+}
