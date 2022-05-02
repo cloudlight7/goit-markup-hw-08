@@ -1,10 +1,8 @@
 .footer__subscribe {
     display: block;
-   /*  margin-left: 93px; */
    text-align: center;
    align-items: center;
 @media screen and (min-width: 768px) {
-    /* display: flex; */
 }
 @media screen and (min-width: 1200px) {
 margin-left: 93px;
@@ -21,7 +19,6 @@ margin-left: 93px;
 }
 
 .footer__subscribe--form {
-/*     display: flex; */
 display: flex;
 flex-direction: column;
 @media screen and (min-width: 1200px) {
@@ -32,7 +29,6 @@ flex-direction: row;
 }
 
 .footer__subscribe--email {
-    /* width: 100%; */
     min-width: 190px;
     height: 50px;
     background-color: transparent;

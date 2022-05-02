@@ -1,14 +1,9 @@
 .container {
-    
-    /* position: relative; */
-    outline: 1px solid rgb(0, 255, 4);
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px; 
     
-    
-/*     width: 1200px;*/
 @media screen and (max-width: 767px) {
     max-width: 480px;
 }
@@ -26,10 +21,7 @@
     display: flex;
     height: 60px;
     justify-content: space-between;
-    outline: 1px solid red;
-    /* .menu.is-open {
-        background-color: red ;
-        position: fixed; */
+  
     
     @media screen and (min-width: 768px) {
         height: 80px;

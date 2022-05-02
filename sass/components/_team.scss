@@ -13,7 +13,6 @@ font-size: 36px;
 }
 
 .team__list {
-  /*   display: flex; */
     padding: 0;
     @media screen and (min-width: 768px) and (max-width: 1199px){
         display: flex;
@@ -82,7 +81,6 @@ font-size: 36px;
 .team__social {
     display: flex;
     padding: 0;
-    /*  margin: 0px 32px 0px 32px; */
     justify-content: center;
 }
 
