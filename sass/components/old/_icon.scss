@@ -1,0 +1,24 @@
+.contacts__icon {
+    display: inline-block;
+    fill: var(--secondary-text-color);
+    margin-right: 10px;
+    transition: fill 250ms var(--timing-func);
+}
+
+.contacts__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    transition: color 250ms var(--timing-func);
+    &:hover .contacts__icon {
+        fill: var(--accent-color);
+    
+    }
+}

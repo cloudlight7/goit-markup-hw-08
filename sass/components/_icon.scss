@@ -1,24 +1,51 @@
-.contacts__icon {
+
+
+.contacts__icon-mail {
     display: inline-block;
     fill: var(--secondary-text-color);
-    margin-right: 10px;
     transition: fill 250ms var(--timing-func);
+@media screen and (max-width: 767px) {
+    display: none;
 }
-
-.contacts__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-    color: var(--secondary-text-color);
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 1.14;
-    transition: color 250ms var(--timing-func);
-    &:hover .contacts__icon {
-        fill: var(--accent-color);
-    
+    @media screen and (min-width: 768px) {
+        width: 14px;
+        height: 10px;
+        margin-right: 8px;
     }
+@media screen and (min-width: 1200px) {
+    width: 16px;
+    height: 12px;
+}
+}
+.contacts__icon-tel{
+        display: inline-block;
+        fill: var(--secondary-text-color);
+        transition: fill 250ms var(--timing-func);
+@media screen and (max-width: 767px) {
+    display: none;
+}
+    @media screen and (min-width: 768px) {
+        width: 10px;
+        height: 14px;
+        margin-right: 8px;
+    }
+@media screen and (min-width: 1200px) {
+        width: 10px;
+        height: 16px;
+}
+    }
+
+.feature__icon{
+    width: 70px;
+    height: 70px;
+}
+.featnre__rectangle {
+     display: flex;
+    background-color: var(--secondary-bg-color);
+    height: 120px;
+    width: 100%;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
