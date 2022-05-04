@@ -22,12 +22,11 @@
     <header class="header">
       <div class="header__container container">
         <a class="nav__logo" href="./index.html"><span class="nav__label">Web</span>Studio</a>
-        <button type="button" class="header__menu--button" data-menu-button>
+        <button type="button" aria-expanded="false" class="header__menu--button" data-menu-button>
           <svg
             class="tap__icon"
             width="40px"
             height="40px"
-            aria-expanded="false"
             aria-label="переключатель мобыльного меню"
           >
             <use class="header__icon--cross" href="./images/svg/symbol-defs.svg#icon-close"></use>
@@ -722,7 +721,7 @@
         <form class="modal__form" autocomplete="off">
           <b class="modal__form--title">Оставьте свои данные, мы вам перезвоним</b>
 
-          <label for="username" class="modal__form--label">Имя</label>
+          <label for="username" class="modal__form--label-title">Имя</label>
           <div class="modal__form--label">
             <input type="text" name="name" id="username" class="modal__form--input" />
             <svg class="modal__form--icon">
@@ -730,7 +729,7 @@
             </svg>
           </div>
 
-          <label for="usertel" class="modal__form--label">Телефон</label>
+          <label for="usertel" class="modal__form--label-title">Телефон</label>
           <div class="modal__form--label">
             <input type="tel" name="usertel" id="usertel" class="modal__form--input" />
             <svg class="modal__form--icon">
@@ -738,7 +737,7 @@
             </svg>
           </div>
 
-          <label for="useremail" class="modal__form--label">Пошта</label>
+          <label for="useremail" class="modal__form--label-title">Пошта</label>
           <div class="modal__form--label">
             <input type="email" name="user-email" id="useremail" class="modal__form--input" />
             <svg class="modal__form--icon">
@@ -746,7 +745,7 @@
             </svg>
           </div>
 
-          <label for="messages" class="modal__form--label">Комментарий</label>
+          <label for="messages" class="modal__form--label-title">Комментарий</label>
 
           <textarea
             name="messages"

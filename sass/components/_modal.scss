@@ -4,7 +4,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
-    height: 648px;
+    /* height: 648px; */
     /* padding: 40px; */
     background-color: #ffffff;
     z-index: 100;
@@ -12,6 +12,9 @@
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+@media screen and (max-width: 489px) {
+width: 100%;
+}
     @media screen and (min-width: 480px) {
         width: 450px;
         height: 609px;
@@ -61,13 +64,14 @@
     position: relative;
     font-weight: 12;
     line-height: 1.16;
-margin-bottom: 10px;
+    margin-bottom: 10px;
+  
 }
 
 
 
 .modal__form--label-title {
-    margin-bottom: 4px;
+    /* margin-bottom: 4px; */
 }
 
 .modal__form--input {
@@ -165,7 +169,7 @@ margin-bottom: 10px;
 .modal__button {
     position: absolute;
     padding: 4px;
-    top: 4px;
+    top: 8px;
     right: 8px;
     width: 30px;
     height: 30px;
