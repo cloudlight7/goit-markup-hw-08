@@ -71,7 +71,9 @@ width: 100%;
 
 
 .modal__form--label-title {
-    /* margin-bottom: 4px; */
+    @media screen and (min-width: 768px) {
+    margin-bottom: 4px;
+    }
 }
 
 .modal__form--input {
