@@ -89,6 +89,9 @@ right: 8px;
     letter-spacing: 0.02em;
     line-height: 1.14;
     transition: color 250ms var(--timing-func);
+        @media screen and (max-width: 400px) {
+            font-size: 29px;
+        }
     @media screen and (min-width: 768px) {
         font-weight: 500;
         font-size: 14px;
@@ -188,6 +191,9 @@ right: 8px;
 
     letter-spacing: 0.02em;
     transition: color 250ms var(--timing-func);
+    @media screen and (max-width: 400px) {
+        font-size: 25px;
+    }
     @media screen and (min-width: 768px) {
         display: flex;
         line-height: 14px;
@@ -201,6 +207,7 @@ right: 8px;
         font-size: 14px;
         line-height: 16px;
 }
+
 }
     &:hover,
     &:focus {
@@ -266,7 +273,7 @@ right: 8px;
         color: rgba(33, 33, 33, 0.2);
 
     }
-  
+
 }
 
 .mobile-menu__social--link-res {
