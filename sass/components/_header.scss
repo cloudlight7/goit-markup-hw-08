@@ -32,6 +32,7 @@ right: 8px;
 }
 
 .nav {
+
     @media screen and (min-width: 1200px) {
     display: flex;
      justify-content: center;
@@ -47,7 +48,7 @@ right: 8px;
     @media screen and (min-width: 768px) {
         display: flex;
     }
-    
+
 }
 
 .nav__item {
@@ -128,6 +129,7 @@ right: 8px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
+ 
     @media screen and (min-width: 768px) {
         display: flex;
         justify-content: flex-start;
@@ -142,8 +144,6 @@ right: 8px;
     flex-wrap: nowrap;
     align-items: center;
     margin-left: 305px;
-
-    
 }
 
 }
@@ -244,6 +244,7 @@ right: 8px;
         display: flex;
         flex-wrap: wrap;
     }
+
 }
 
 .mobile-menu__social--link {

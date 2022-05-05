@@ -1303,13 +1303,19 @@ p {
 }
 
 .footer__subscribe--title {
-  text-align: left;
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
   color: var(--primary-white-color);
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__subscribe--title {
+    text-align: left;
+  }
 }
 
 .footer__subscribe--form {
@@ -1707,6 +1713,12 @@ p {
 .menu {
   z-index: 1;
   display: none;
+  /*     @media screen and (max-width: 400px) {
+justify-content: flex-start;
+    } */
+  /*    @media screen and (max-width: 400px) {
+        justify-content: flex-start;
+    } */
 }
 
 @media screen and (min-width: 768px) {
@@ -1722,11 +1734,12 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 796px;
+    height: 100%;
     padding: 48px 0px 48px 40px;
     background-color: var(--primary-white-color);
     flex-direction: column;
     justify-content: space-between;
+    /* justify-content: flex-start; */
   }
 }
 /*# sourceMappingURL=main.css.map */

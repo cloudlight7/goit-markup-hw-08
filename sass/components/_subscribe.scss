@@ -10,13 +10,16 @@ margin-left: 93px;
 }
 
 .footer__subscribe--title {
-    text-align: left;
+    text-align: center;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
     color: var(--primary-white-color);
     margin-bottom: 20px;
+    @media screen and (min-width: 768px) {
+        text-align: left;
+    }
 }
 
 .footer__subscribe--form {
